@@ -1,0 +1,16 @@
+package com.example.service;
+import com.example.model.User;
+import java.io.*;
+import java.util.List;
+
+public class FileService {
+	public void saveUsersToFile(List<User> users, String filename) throws IOException {
+        
+    }
+
+    public List<User> loadUsersFromFile(String filename) throws IOException, ClassNotFoundException {
+        
+        return null;
+    }
+
+}

@@ -1,0 +1,15 @@
+package com.example.util;
+import com.example.model.User;
+import java.util.Collections;
+import java.util.List;
+
+public class SortUtil {
+	 public static void sortUsersByName(List<User> users) {
+	        
+	    }
+
+	    public static void sortUsersByAge(List<User> users) {
+	        
+	    }
+
+}
