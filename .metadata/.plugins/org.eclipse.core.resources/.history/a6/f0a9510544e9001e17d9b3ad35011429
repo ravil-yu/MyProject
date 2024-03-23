@@ -14,13 +14,5 @@ public class UserService {
     public boolean isValidAge(int age) {
         return age >= 0 && age <= 100;
     }
-    public User findUserByName(String name) {
-        for (User user : users) {
-            if (user.getName().equals(name)) {
-                return user;
-            }
-        }
-        return null;
-    }
 
 }
