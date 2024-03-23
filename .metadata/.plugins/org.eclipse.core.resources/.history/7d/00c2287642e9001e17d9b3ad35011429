@@ -11,8 +11,5 @@ public class UserService {
     public void listUsers() {
         users.forEach(System.out::println);
     }
-    public boolean isValidAge(int age) {
-        return age >= 0 && age <= 100;
-    }
 
 }
