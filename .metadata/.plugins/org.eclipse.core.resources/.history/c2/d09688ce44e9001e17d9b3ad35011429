@@ -22,8 +22,5 @@ public class UserService {
         }
         return null;
     }
-    public boolean removeUser(String name) {
-        return users.removeIf(user -> user.getName().equals(name));
-    }
 
 }
