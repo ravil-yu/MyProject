@@ -24,7 +24,7 @@
   <properties>
     <sonar.projectKey>TongProject</sonar.projectKey>
     <sonar.host.url>http://localhost:9000</sonar.host.url>
-    <sonar.login>sqa_1e4a490cda906912d0142f77f532aa321d34b0b5</sonar.login>
+    <sonar.token>sqa_1e4a490cda906912d0142f77f532aa321d34b0b5</sonar.token>
 </properties>
   <build>
     <plugins>
