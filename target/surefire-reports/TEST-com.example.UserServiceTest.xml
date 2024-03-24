@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/zhangtong/Desktop/MyProject/target/surefire/surefirebooter-20240324173110389_3.jar /Users/zhangtong/Desktop/MyProject/target/surefire 2024-03-24T17-31-10_352-jvmRun1 surefire-20240324173110389_1tmp surefire_0-20240324173110389_2tmp"/>
+    <property name="sun.java.command" value="/Users/zhangtong/Desktop/MyProject/target/surefire/surefirebooter-20240324175026004_3.jar /Users/zhangtong/Desktop/MyProject/target/surefire 2024-03-24T17-50-25_967-jvmRun1 surefire-20240324175026004_1tmp surefire_0-20240324175026004_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/zhangtong/Desktop/MyProject/target/test-classes:/Users/zhangtong/Desktop/MyProject/target/classes:/Users/zhangtong/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/zhangtong/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/zhangtong/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/zhangtong/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/zhangtong/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/zhangtong/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/zhangtong/Desktop/MyProject/target/surefire/surefirebooter-20240324173110389_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/zhangtong/Desktop/MyProject/target/surefire/surefirebooter-20240324175026004_3.jar"/>
     <property name="user.script" value="Hans"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -55,7 +55,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="findUserByNameShouldReturnUserIfExists" classname="com.example.UserServiceTest" time="0.008"/>
-  <testcase name="removeUserShouldSuccessfullyRemoveUserByName" classname="com.example.UserServiceTest" time="0.001"/>
+  <testcase name="findUserByNameShouldReturnUserIfExists" classname="com.example.UserServiceTest" time="0.007"/>
+  <testcase name="removeUserShouldSuccessfullyRemoveUserByName" classname="com.example.UserServiceTest" time="0.0"/>
   <testcase name="isValidAgeShouldReturnTrueForValidAge" classname="com.example.UserServiceTest" time="0.0"/>
 </testsuite>
