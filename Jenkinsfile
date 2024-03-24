@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.9.6' // 确保你已经在Jenkins中配置了Maven工具，并在这里使用正确的Maven标识符
-        jdk 'JDK17'
+        maven 'Maven-3.9.6' 
+        jdk 'Java-17'
     }
     stages {
         stage('Checkout') {
