@@ -7,12 +7,12 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Tong4343/MyProject.git', branch: 'master' 
+                git url: 'https://github.com/ravil-yu/MyProject.git', branch: 'master' 
             }
         }
         stage('Build & Test') {
             steps {
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
         stage('Code Coverage') {
@@ -21,9 +21,8 @@ pipeline {
             }
         }
         stage('Static Code Analysis') {
-            steps {
-                
-                sh 'mvn sonar:sonar'
+            steps {    
+                bat 'mvn sonar:sonar'
             }
         }
     }
