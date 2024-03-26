@@ -31,7 +31,7 @@ class UserServiceTest {
     void listUsersShouldPrintOutUsers() {
         userService.listUsers();
         String expectedOutput = "User{name='Alice', age=30}\nUser{name='Bob', age=25}\n";
-        assertNotEquals(expectedOutput.trim(), outContent.toString().trim(), "The output should match the expected user list");
+        assertEquals(expectedOutput.trim(), outContent.toString().trim(), "The output should match the expected user list");
     }
 
     @Test
